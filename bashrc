@@ -6,19 +6,25 @@ else
 fi
 
 # "-F":ディレクトリに"/"を表示 / "-G"でディレクトリを色表示
- 10 alias ls='ls --color=auto'
- 11 alias rm='rm -i'
- 12 alias ..='cd ..'
- 13 alias mv='mv -i'
- 14 alias cp='cp -i'
- 15 alias la='ls -a'
- 16 alias ls='ls -G'
- 17
- 18 alias gs='git status'
- 19 alias gc='git commit'
- 20 alias gp='git push'
- 21
- 22 alias c='clear'
- 23
- 24 alias ls='ls -FG'
- 25 alias ll='ls -alFG'
+alias ls='ls --color=auto'
+alias rm='rm -i'
+alias ..='cd ..'
+alias mv='mv -i'
+alias cp='cp -i'
+alias la='ls -a'
+alias ls='ls -G'
+
+#git関係
+alias gis='git status'
+alias gic='git commit -am'
+alias gip='git push'
+alias gib='git branch'
+alias gich='git checkout'
+
+alias c='clear'
+
+alias ls='ls -FG'
+alias ll='ls -alFG'
+
+alias rat='rails test'
+alias psax='ps ax | grep '
